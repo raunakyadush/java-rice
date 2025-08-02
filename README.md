@@ -1,13 +1,5 @@
 <p align="center">
-  <a href="https://pp-namias.github.io/Java-Rice/" target="_blank"><img src="./Java-Rice-GUI-Plan/Java-Rice-Logo-3.png" alt="Java Rice Banner"/></a>
-  <a href="https://github.com/PP-Namias/Java-Program/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square" alt="Java-Program All Contributors" /></a>
-  <a href="https://github.com/PP-Namias/Java-Rice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/PP-Namias/Java-Rice?style=flat-square" alt="Java Rice license" /></a>
-  <a href="https://github.com/PP-Namias/Java-Rice/fork" target="_blank"><img src="https://img.shields.io/github/forks/PP-Namias/Java-Rice?style=flat-square" alt="Java Rice forks"/></a>
-  <a href="https://github.com/PP-Namias/Java-Rice/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/PP-Namias/Java-Rice?style=flat-square" alt="Java Rice stars"/></a>
-  <a href="https://github.com/PP-Namias/Java-Rice/issues" target="_blank"><img src="https://img.shields.io/github/issues/PP-Namias/Java-Rice?style=flat-square" alt="Java Rice issues"/></a>
-  <a href="https://github.com/PP-Namias/Java-Rice/pulls" target="_blank"><img src="https://img.shields.io/github/issues-pr/PP-Namias/Java-Rice?style=flat-square" alt="Java Rice pull-requests"/></a>
-  <a href="https://github.com/PP-Namias/Java-Rice" target="_blank"><img src="https://visitor-badge.glitch.me/badge?page_id=PP-Namias.Java-Rice" alt="Java Rice Visitors"/></a>
-  <a href="https://github.com/PP-Namias/Java-Rice/releases" target="_blank"><img src="https://img.shields.io/github/downloads/PP-Namias/Java-Rice/total.svg?style=flat-square" alt="Java Rice downloads"/></a>
+  <img src="./Java-Rice-GUI-Plan/Java-Rice-Logo-3.png" alt="Java Rice Banner"/>
 </p>
 
 # __Title: Java Rice__ - _An Interactive Food Ordering System_
@@ -101,13 +93,13 @@ Overall, Java Rice is a practical solution for restaurants looking for an easy-t
   <img src="./Java-Rice-GUI-Plan/Java Rice [ Flowchart ].png" alt="Java Rice [ Flowchart ]"/>
 </p>
 
-## __Changelog__
-This is compilation and record of development progress and notable changes made from inside-out and start-to-finish of the program or also known as changelogs.
+## __Development Status__
+The project is currently in development with the following phases:
 
-## __Alpha Build 1:__ _February 3, 2023 - February 11, 2023_
-__Planning and Designing Phase__, this week's development progress will be focused on finding references, brainstorming, and planning for program design, as well as making the most of available time to ensure efficient and progressive coding in subsequent weeks.
-
-The Plan is to make a structure of what program will be created, it includes the design of possible future User Interface of the program that will be used for referencing and on top of that is to brainstorm a plan as well as Logo Designing. Created four initial databases named as: Products, Carts, Order, Sales.
+- [x] Planning and Design Phase: Completed
+- [ ] Development Phase: In Progress
+- [ ] Testing Phase: Pending
+- [ ] Deployment Phase: Pending
 
 ## __UI and Logo Design__
 <br>
@@ -230,22 +222,14 @@ CREATE TABLE IF NOT EXISTS Sales (
   - #cc3300 // Java
   - #cc6600 // Rice
 
-## __References for Databases__
-__Store: [Name]#___
-1. Maestro Food Hub {Meal}
-2. Garvs' PaKanton {Noodles}
-3. Bam-bam's {Meal}
-4. Snap n' Bite {Snacks, [Fries, Burger, Hotdogs, Donuts]}
-5. RMBSJ: Tapsilogan ATB. {Set Meal}
-6. Kuya Lery: Pares ng Bayan {Noodles, Pares, Mami}
-7. Shake It Off {Snacks, Milk Tea, Shakes}
-8. Kitchen Nanay {Snacks, Meal}
-9. SnowJoe {Ice Cream, Cold Drinks}
-10. Happy Tummy {Set Meal, Noodles}
+## __Database Schema__
+The system uses a relational database with the following main entities:
+- Products
+- Cart
+- Orders
+- Sales
 
-Food Price: ####.##
-
-Products: [ProductName]
+Each entity is designed to handle specific aspects of the food ordering system, from inventory management to order processing and sales tracking.
 
 __Food Category:__
   - __Beverages__ {Cola, Softdrinks, Tea, Coffee, Milk, Energy Drink, Hot Chocolate, Milk Tea (sub categ.?), Water, Juice}
